@@ -1,7 +1,8 @@
-import logo from "./logo.svg";
-import "./App.css";
+import logo from "./logo.svg"; //императивный
+import "./App.css"; // императивный
 
 function App() {
+	//
 	return (
 		<div className="App">
 			<header className="App-header">
@@ -21,6 +22,6 @@ function App() {
 			</header>
 		</div>
 	);
-}
+} // декларативный
 
-export default App;
+export default App; //императивный
